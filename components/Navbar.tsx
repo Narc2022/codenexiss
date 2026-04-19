@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
-  { label: "Dashboard", href: "#", active: true },
-  { label: "Deployments", href: "#" },
+  { label: "Dashboard", href: "/", active: true },
+  { label: "Deployments", href: "/services" },
   { label: "Security", href: "#" },
   { label: "Analytics", href: "#" },
 ];

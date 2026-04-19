@@ -95,7 +95,7 @@ export default function HomePage() {
 ];
   return (
     <>
-      <Navbar />
+     
 
       <main className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
         <HeroSection />
@@ -106,7 +106,7 @@ export default function HomePage() {
         <InnovationFeed feedItems={feedItems} />
       </main>
 
-      <Footer />
+      
     </>
   );
 }

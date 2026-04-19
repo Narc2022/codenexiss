@@ -57,3 +57,42 @@
     -webkit-font-smoothing: antialiased;
   }
 }
+
+/* services stylingh */
+/* ─── Base ─────────────────────────────────────────────── */
+body {
+  @apply bg-background text-on-surface font-body;
+  selection-color: theme("colors.primary / 20%");
+}
+ 
+/* ─── Utility classes shared across pages ──────────────── */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(0, 127, 142, 0.1);
+}
+ 
+.node-active-line {
+  background: linear-gradient(90deg, #006471, #413de4, transparent);
+}
+ 
+.technical-grid {
+  background-image: radial-gradient(#c7c4d8 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+ 
+/* ─── Material Symbols (icon font) ─────────────────────── */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+ 
+/* end services stylingh */
