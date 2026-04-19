@@ -58,7 +58,7 @@
   }
 }
 
-/* services stylingh */
+/* services styling */
 /* ─── Base ─────────────────────────────────────────────── */
 body {
   @apply bg-background text-on-surface font-body;
@@ -95,4 +95,48 @@ body {
   -webkit-font-smoothing: antialiased;
 }
  
-/* end services stylingh */
+/* end services styling */
+/* enterprise styling */
+@layer base {
+  :root {
+    --color-primary: #006471;
+    --color-secondary: #413de4;
+    --color-tertiary: #8025ce;
+    --color-surface: #f7f9fb;
+    --color-on-surface: #191c1e;
+    --color-outline: #767587;
+    --color-outline-variant: #c7c4d8;
+    --color-surface-container: #eceef0;
+    --color-surface-container-low: #f2f4f6;
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-high: #e6e8ea;
+    --color-surface-container-highest: #e0e3e5;
+    --color-on-surface-variant: #464556;
+    --color-secondary-container: #5c5bfe;
+    --color-on-secondary: #ffffff;
+  }
+}
+ 
+@layer components {
+  .glass {
+    background: rgba(247, 249, 251, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+ 
+  .glass-dark {
+    background: rgba(25, 28, 30, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+ 
+  .prismatic-gradient {
+    background: linear-gradient(135deg, #006471 0%, #413de4 50%, #8025ce 100%);
+  }
+ 
+  .ghost-border {
+    border: 1px solid rgba(199, 196, 216, 0.2);
+  }
+}
+
+/* end enterprise styling */
