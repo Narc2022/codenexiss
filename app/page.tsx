@@ -99,14 +99,11 @@ export default function HomePage() {
 
       <main className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
         <HeroSection />
-        
         <PartnersBar />
         <InnovationFeed  feedItems={serviceItems2} title="Advanced Services" miniTitle="The Next-Gen Service Engine"/>
         <NewsletterSection />
         <InnovationFeed feedItems={feedItems} />
       </main>
-
-      
     </>
   );
 }
