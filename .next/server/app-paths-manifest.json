@@ -1,5 +1,6 @@
 {
-  "/page": "app/page.js",
+  "/ourstory/page": "app/ourstory/page.js",
+  "/innovationblog/page": "app/innovationblog/page.js",
   "/services/page": "app/services/page.js",
-  "/enterprise/page": "app/enterprise/page.js"
+  "/page": "app/page.js"
 }

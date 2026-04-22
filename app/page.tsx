@@ -61,7 +61,7 @@ export default function HomePage() {
     version: "v2.4.1",
     title: "Quantum-Resistant Ledger Patch",
     description:
-      "Implementation of lattice-based cryptography across the primary database mesh to future-proof asset integrity.",
+      "My serveces description implementation of lattice-based cryptography across the primary database mesh to future-proof asset integrity.",
     timestamp: "2024.10.12.14:30",
   },
   {
