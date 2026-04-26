@@ -1,6 +1,6 @@
 export default function ServicesHero() {
   return (
-    <header className="max-w-[1920px] mx-auto px-6 py-16 md:py-24">
+    <header className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
       <div className="flex flex-col gap-4 max-w-4xl">
         <div className="flex items-center gap-3">
           <span className="h-[2px] w-12 node-active-line" />

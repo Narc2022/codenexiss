@@ -82,7 +82,7 @@ const SERVICE_NODES: ServiceNode[] = [
 
 export default function ServicesGrid() {
   return (
-    <section className="max-w-[1920px] mx-auto px-6 pb-16">
+    <section className="max-w-[1920px] mx-auto px-6 lg:px-10 pb-16">
       {/* Section label */}
       <div className="flex items-center gap-4 mb-8">
       </div>

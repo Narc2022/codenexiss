@@ -59,9 +59,9 @@ export default function HomePage() {
     imageAlt: "Security innovation visual",
     tags: [{ label: "Security", color: "secondary" }],
     version: "v2.4.1",
-    title: "Quantum-Resistant Ledger Patch",
+    title: "Web Engineering",
     description:
-      "My serveces description implementation of lattice-based cryptography across the primary database mesh to future-proof asset integrity.",
+      "Building and maintaining modern, secure, and responsive websites and web applications for better user experience and performance.",
     timestamp: "2024.10.12.14:30",
   },
   {
@@ -73,9 +73,9 @@ export default function HomePage() {
       { label: "Network", color: "primary" },
       { label: "Global", color: "primary" },
     ],
-    title: "Low-Orbit Relay Integration",
+    title: "Mobile Solution Development",
     description:
-      "Satellite constellation peering now active, reducing cross-continental latency by an average of 45ms.",
+      "Designing and delivering scalable, high-performance mobile applications tailored to business needs, with seamless user experience, robust architecture, and cross-platform compatibility.",
     timestamp: "2024.10.11.09:12",
   },
   {
@@ -95,8 +95,6 @@ export default function HomePage() {
 ];
   return (
     <>
-     
-
       <main className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
         <HeroSection />
         <PartnersBar />

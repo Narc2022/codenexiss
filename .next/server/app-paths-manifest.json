@@ -1,6 +1,8 @@
 {
-  "/ourstory/page": "app/ourstory/page.js",
-  "/innovationblog/page": "app/innovationblog/page.js",
+  "/page": "app/page.js",
   "/services/page": "app/services/page.js",
-  "/page": "app/page.js"
+  "/blog/page": "app/blog/page.js",
+  "/enterprise/page": "app/enterprise/page.js",
+  "/technical/page": "app/technical/page.js",
+  "/our-stories/page": "app/our-stories/page.js"
 }

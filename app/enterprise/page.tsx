@@ -11,7 +11,8 @@ export const metadata = {
 
 export default function ServicesPage() {
   return (
-    <main className="max-w-[1440px] mx-auto px-6 py-12 md:py-20">
+    <main className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8
+">
       {/* Hero — headline, CTA, uptime visual */}
       <ServicesHero />
 
