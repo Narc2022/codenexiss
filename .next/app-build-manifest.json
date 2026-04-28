@@ -21,20 +21,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/enterprise/page.js"
     ],
-    "/our-stories/page": [
+    "/services/autonomous-debugging/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/our-stories/page.js"
+      "static/chunks/app/services/autonomous-debugging/page.js"
     ],
-    "/blog/page": [
+    "/services/ai-automation/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blog/page.js"
+      "static/chunks/app/services/ai-automation/page.js"
     ],
-    "/technical/page": [
+    "/services/content-creation/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/technical/page.js"
+      "static/chunks/app/services/content-creation/page.js"
+    ],
+    "/services/it-support/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/services/it-support/page.js"
     ],
     "/services/web-dev/page": [
       "static/chunks/webpack.js",
@@ -45,11 +50,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/services/app-dev/page.js"
-    ],
-    "/services/graphic-design/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/graphic-design/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

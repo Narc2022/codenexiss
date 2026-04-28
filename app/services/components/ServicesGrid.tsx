@@ -37,20 +37,20 @@ const SERVICE_NODES: ServiceNode[] = [
   {
     id: "NODE_04",
     icon: "query_stats",
-    title: "Autonomous Debugging v3",
+    title: "Autonomous Debugging v",
     description:
       "Conversion-driven algorithmic reach and data-mined audience insights.",
     metaLabel: "Reach",
     metaValue: "GLOBAL",
     accentClass: "primary",
-    href: "/services/digital-marketing",
+    href: "/services/autonomous-debugging",
   },
   {
     id: "NODE_05",
     icon: "smart_toy",
     title: "AI Automation",
     description:
-      "Neural-assisted workflow optimization and LLM integration pipelines.",
+      "AI Automation is a modern technology-driven service that helps businesses automate repetitive tasks, improve efficiency, and increase productivity using Artificial Intelligence.",
     metaLabel: "Kernel",
     metaValue: "AI-READY",
     accentClass: "secondary",
@@ -61,7 +61,7 @@ const SERVICE_NODES: ServiceNode[] = [
     icon: "movie_edit",
     title: "Content Creation",
     description:
-      "High-fidelity asset generation across cinematic and technical mediums.",
+      "Content Creation is a creative digital service focused on producing engaging, high-quality content that helps brands connect with their audience, build trust, and grow online.",
     metaLabel: "Res",
     metaValue: "8K_RAW",
     accentClass: "tertiary",
