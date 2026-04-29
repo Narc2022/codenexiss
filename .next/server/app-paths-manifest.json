@@ -1,8 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/services/page": "app/services/page.js",
-  "/services/ai-automation/page": "app/services/ai-automation/page.js",
+  "/services/graphic-design/page": "app/services/graphic-design/page.js",
+  "/services/digital-marketing/page": "app/services/digital-marketing/page.js",
+  "/services/app-dev/page": "app/services/app-dev/page.js",
   "/services/web-dev/page": "app/services/web-dev/page.js",
-  "/page": "app/page.js",
-  "/services/app-dev/page": "app/services/app-dev/page.js"
+  "/services/ai-automation/page": "app/services/ai-automation/page.js",
+  "/services/page": "app/services/page.js"
 }

@@ -1,9 +1,23 @@
-import React from 'react'
+import HeroSection from "./components/HeroSection";
+import ProductionModules from "./components/ProductionModules";
+import WorkflowTimeline from "./components/WorkflowTimeline";
+import SystemPerformance from "./components/SystemPerformance";
+import CTASection from "./components/HeroSection";
 
-const page = () => {
+export const metadata = {
+  title: "AURA.SYNTHETIX | Content Creation Systems",
+  description:
+    "Precision-engineered content creation infrastructure for high-growth digital ecosystems.",
+};
+
+export default function ContentCreationPage() {
   return (
-    <div>page</div>
-  )
+    <main className="overflow-x-hidden">
+      <HeroSection />
+      <ProductionModules />
+      <WorkflowTimeline />
+      <SystemPerformance />
+      <CTASection />
+    </main>
+  );
 }
-
-export default page

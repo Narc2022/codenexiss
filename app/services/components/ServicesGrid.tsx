@@ -37,13 +37,13 @@ const SERVICE_NODES: ServiceNode[] = [
   {
     id: "NODE_04",
     icon: "query_stats",
-    title: "Autonomous Debugging v",
+    title: "Digital Marketing",
     description:
       "Conversion-driven algorithmic reach and data-mined audience insights.",
     metaLabel: "Reach",
     metaValue: "GLOBAL",
     accentClass: "primary",
-    href: "/services/autonomous-debugging",
+    href: "/services/digital-marketing",
   },
   {
     id: "NODE_05",
