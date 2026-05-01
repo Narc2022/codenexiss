@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
     { label: "Dashboard", href: "/" },
@@ -27,6 +29,7 @@ export default function Navbar() {
             CodeNexiss
           </span>
 
+          {/*Destop Menu */}
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => {
               const isActive =
@@ -54,6 +57,14 @@ export default function Navbar() {
         {/* Right */}
         <div className="flex items-center gap-4">
 
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden p-2 text-2xl"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            ☰
+          </button>
+
           {/* Search */}
           <div className="hidden lg:flex items-center bg-slate-100 px-3 py-1.5 rounded-lg">
             <span className="material-symbols-outlined text-gray-500 mr-2 text-[18px]">
@@ -66,7 +77,7 @@ export default function Navbar() {
             />
           </div>
 
-          {/* Icons */}
+          {/* Icons and Profile */}
           <div className="flex items-center gap-2">
             <button className="p-2 hover:bg-slate-100 rounded-md transition-all">
               <span className="material-symbols-outlined">
@@ -93,6 +104,35 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="md:hidden px-6 pb-4">
+          <div className="flex flex-col gap-4">
+            {navLinks.map((link) => {
+              const isActive =
+                link.href === "/services"
+                  ? pathname.startsWith("/services")
+                  : pathname === link.href;
+
+              return (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className={
+                    isActive
+                      ? "text-indigo-600 font-semibold"
+                      : "text-slate-600"
+                  }
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
