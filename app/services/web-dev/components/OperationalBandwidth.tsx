@@ -25,7 +25,7 @@ export default function OperationalBandwidth() {
   }, []);
 
   return (
-    <div className="w-full overflow-x-auto">
+    <div className="w-full overflow-x-auto mx-auto px-5 lg:px-9">
       <div className="flex items-center gap-8 min-w-max px-1 py-3">
         {metrics.map((m) => (
           <div key={m.label} className="flex items-center gap-3">

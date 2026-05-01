@@ -7,7 +7,7 @@ const techStack = [
 
 export default function DataSection() {
   return (
-    <section className="mb-32">
+    <section className="mb-4 max-w-[1920px] mx-auto px-6 lg:px-10 pt-6">
       <div className="bg-[#f2f4f6] p-1 rounded-2xl">
         <div className="bg-white rounded-xl p-12 flex flex-col items-center text-center">
           {/* Tech stack pills */}

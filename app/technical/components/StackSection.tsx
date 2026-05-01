@@ -28,7 +28,7 @@ const stackItems = [
 export default function StackSection() {
   return (
     <section>
-      <div className="mb-8 space-y-1">
+      <div className="my-8 space-y-1">
         <p className="text-[10px] font-bold uppercase tracking-widest text-teal-600">Infrastructure</p>
         <h2 className="text-3xl font-bold text-slate-900 font-headline">The Stack</h2>
       </div>

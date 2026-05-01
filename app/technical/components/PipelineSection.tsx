@@ -58,7 +58,7 @@ const steps = [
 export default function PipelineSection() {
   return (
     <section>
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex items-center justify-between my-8">
         <div className="space-y-1">
           <p className="text-[10px] font-bold uppercase tracking-widest text-teal-600">The Process</p>
           <h2 className="text-3xl font-bold text-slate-900 font-headline">The Pipeline</h2>

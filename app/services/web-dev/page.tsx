@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function WebEngineeringPage() {
   return (
-    <main className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
+    <main className="">
       {/* Live system metrics ticker */}
-      <div className="mb-8 border-b border-[#e0e3e5] pb-4">
+      <div className="border-b border-[#e0e3e5]">
         <OperationalBandwidth />
       </div>
 

@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  console.log("Current pathname:", pathname); // Debugging line
 
   const navLinks = [
     { label: "Dashboard", href: "/" },
