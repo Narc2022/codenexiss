@@ -51,7 +51,7 @@ export default function ServicesHero() {
   }, []);
 
   return (
-    <section className="relative mb-32 overflow-hidden">
+    <section className="relative mb-8 overflow-hidden max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
       {/* Ambient blobs */}
       <div className="pointer-events-none absolute -top-20 -left-20 w-72 h-72 rounded-full bg-[#006471]/10 blur-[100px] -z-10" />
       <div className="pointer-events-none absolute top-40 right-0 w-96 h-96 rounded-full bg-[#8025ce]/10 blur-[120px] -z-10" />

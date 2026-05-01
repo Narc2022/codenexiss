@@ -110,8 +110,7 @@ const team: TeamMember[] = [
 export default function TeamArchitects() {
   return (
     <section className="py-24 px-6 bg-[#f7f9fb]">
-      <div className="max-w-7xl mx-auto">
-
+      <div className="max-w-[1920px] mx-auto px-6 lg:px-4">
         {/* Header row */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-xl">

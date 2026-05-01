@@ -113,7 +113,7 @@ const services: ServiceCardProps[] = [
 
 export default function ServicesGrid() {
   return (
-    <section className="mb-32">
+    <section className="mb-4 max-w-[1920px] mx-auto px-6 lg:px-10 pt-6">
       {/* Section header */}
       <div className="flex items-end justify-between mb-12">
         <div>

@@ -27,7 +27,7 @@ function ArrowIcon() {
 // ── Component ─────────────────────────────────────────
 export default function FeaturedWhitepaper() {
   return (
-    <section className="relative overflow-hidden rounded-xl bg-slate-100 min-h-[500px] flex items-center p-8 md:p-16">
+    <section className="relative overflow-hidden rounded-xl bg-slate-100 min-h-[500px] flex items-center p-8 md:p-16 max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
       {/* Abstract background grid pattern */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* Gradient mesh bg */}

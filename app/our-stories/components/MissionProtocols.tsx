@@ -31,8 +31,8 @@ function IconInfinite() {
 // ──────────────────────────────────────────────────────
 export default function MissionProtocols() {
   return (
-    <section className="py-20 px-6 bg-slate-50">
-      <div className="max-w-7xl mx-auto">
+    <section className="pt-24 px-6 bg-slate-50">
+      <div className=" max-w-[1920px] mx-auto px-6 lg:px-4">
 
         {/* Section header */}
         <div className="mb-16">

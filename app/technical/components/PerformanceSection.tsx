@@ -14,7 +14,7 @@ const logs = [
 export default function PerformanceSection() {
   return (
     <section>
-      <div className="mb-8 space-y-1">
+      <div className="my-8 space-y-1">
         <p className="text-[10px] font-bold uppercase tracking-widest text-teal-600">Live Vitals</p>
         <h2 className="text-3xl font-bold text-slate-900 font-headline">System Performance</h2>
       </div>
