@@ -87,9 +87,9 @@ export default function HomePage() {
       { label: "Automation", color: "tertiary" },
       { label: "Beta", color: "tertiary" },
     ],
-    title: "Autonomous Debugging v3",
+    title: "Digital Marketing",
     description:
-      "Self-healing code routines released for production clusters. Error resolution occurring at 3x speed.",
+      "Digital marketing involves strategic use of online platforms and data-driven techniques to increase brand visibility, attract targeted audiences, and drive measurable business growth.",
     timestamp: "2024.10.10.22:58",
   },
 ];

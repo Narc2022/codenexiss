@@ -50,7 +50,7 @@ const SERVICE_NODES: ServiceNode[] = [
     icon: "smart_toy",
     title: "AI Automation",
     description:
-      "Neural-assisted workflow optimization and LLM integration pipelines.",
+      "AI Automation is a modern technology-driven service that helps businesses automate repetitive tasks, improve efficiency, and increase productivity using Artificial Intelligence.",
     metaLabel: "Kernel",
     metaValue: "AI-READY",
     accentClass: "secondary",
@@ -61,7 +61,7 @@ const SERVICE_NODES: ServiceNode[] = [
     icon: "movie_edit",
     title: "Content Creation",
     description:
-      "High-fidelity asset generation across cinematic and technical mediums.",
+      "Content Creation is a creative digital service focused on producing engaging, high-quality content that helps brands connect with their audience, build trust, and grow online.",
     metaLabel: "Res",
     metaValue: "8K_RAW",
     accentClass: "tertiary",
