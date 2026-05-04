@@ -2,8 +2,8 @@ import ServiceTile from './ServiceTile';
 
 export default function MobileServicesGrid() {
   return (
-    <section className="py-24 px-6 bg-[#f2f4f6]/60">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-24 px-0 bg-[#f2f4f6]/60">
+      <div className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
         {/* Section header */}
         <div className="mb-12">
           <p className="font-['JetBrains_Mono'] text-[10px] font-bold text-[#8025ce] uppercase tracking-widest mb-3">

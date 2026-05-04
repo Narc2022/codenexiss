@@ -22,7 +22,8 @@ const kpis = [
 export default function PerformanceMetrics() {
   return (
     <section className="px-8 py-24 bg-surface">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8
+">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
 
           {/* ── Left: copy + KPI bars ── */}

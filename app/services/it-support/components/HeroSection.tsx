@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="absolute top-1/4 -right-32 w-[480px] h-[480px] bg-secondary/8 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute bottom-1/4 -left-32 w-[480px] h-[480px] bg-primary/8 rounded-full blur-[140px] pointer-events-none" />
 
-      <div className="max-w-[1440px] mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-[1920px] mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left copy */}
         <div className="z-10">
           <div className="inline-block px-3 py-1 mb-6 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label text-[10px] uppercase tracking-[0.2em] font-bold">

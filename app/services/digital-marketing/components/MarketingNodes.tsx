@@ -114,8 +114,8 @@ const services = [
 
 export default function MarketingNodes() {
   return (
-    <section className="px-8 py-24 bg-surface-container-low">
-      <div className="max-w-7xl mx-auto">
+    <section className="px-0 py-24 bg-surface-container-low">
+      <div className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-6">
         {/* Header */}
         <div className="mb-16">
           <span className="font-headline text-[11px] uppercase tracking-[0.2em] text-primary font-bold">
@@ -160,3 +160,4 @@ export default function MarketingNodes() {
     </section>
   );
 }
+

@@ -76,7 +76,7 @@ export default function SystemUptime() {
         }}
       />
 
-      <div className="max-w-[1440px] mx-auto px-8 relative z-10">
+      <div className="max-w-[1920px] mx-auto px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl font-bold mb-4 text-on-surface">

@@ -26,7 +26,8 @@ export default function NeuralDevCycle() {
       <div className="pointer-events-none absolute -top-40 -left-40 w-96 h-96 bg-[#413de4]/5 blur-[120px] rounded-full" />
       <div className="pointer-events-none absolute -bottom-20 right-0 w-80 h-80 bg-[#8025ce]/5 blur-[100px] rounded-full" />
 
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center relative z-10">
+      <div className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8
+ flex flex-col lg:flex-row gap-16 items-center relative z-10">
         {/* Left — text */}
         <div className="lg:w-1/2 space-y-7">
           <p className="font-['JetBrains_Mono'] text-xs font-bold text-[#8025ce] uppercase tracking-widest">

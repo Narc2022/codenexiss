@@ -3,7 +3,8 @@
 export default function Navbar() {
   return (
     <header className="bg-white/70 backdrop-blur-md sticky top-0 z-50 shadow-[0_4px_30px_rgba(0,0,0,0.05)] after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gradient-to-r after:from-indigo-500 after:via-purple-500 after:to-transparent">
-      <div className="flex justify-between items-center w-full px-6 py-3 max-w-7xl mx-auto">
+      <div className="flex justify-between items-center w-full px-6 py-3 max-w-[1920px] mx-auto px-6 lg:px-10 pt-8
+">
         <div className="text-xl font-bold font-headline text-slate-900">CodeNexiss</div>
         <nav className="hidden md:flex items-center gap-8">
           {["Dashboard", "Deployments", "Security", "Analytics"].map((item) => (
