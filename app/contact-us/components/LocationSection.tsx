@@ -9,7 +9,7 @@ function LocationPinIcon() {
 
 export default function LocationSection() {
   return (
-    <section className="max-w-7xl mx-auto px-8 mt-20">
+    <section className="max-w-[1920px] mx-auto px-8 mt-20">
       <div className="grid md:grid-cols-2 gap-12 items-center">
 
         {/* ── Left copy ── */}
