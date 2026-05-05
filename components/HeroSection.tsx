@@ -82,7 +82,7 @@ export default function HeroSection() {
               </span>
 
               <h3 className="text-2xl font-headline font-bold mb-4">
-                Initialize New Node
+                Launch a Node
               </h3>
 
               <p className="text-sm opacity-80 mb-6">

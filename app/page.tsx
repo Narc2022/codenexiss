@@ -13,8 +13,10 @@ export default function HomePage() {
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCuJeVMzAePdlSuALpqE2A4Bwm-UGHf6-CTBS6XGSfaZHqUkGN_3ZsRKFEIJi1J2bfCFwzZJb3dXNVklKlX1DXUOk7CpAHMBfgMRTdSZiI_Gg5yqn8VLZ4YjzrZqJ6Aw4v-N4WTpvnR_p-wC2ONXL5YhfRAJqjPbxelVrBCUPPiJRGnrM4HF2bGpnxc0UKYGjIV6r1FHvXtJbDnm5OUqwOz8Y0I_sIiHJGH3IbnKoS4e4vBJjD_P0s4wHHl2Ufco4WXLY3MF_1t8_A",
     imageAlt: "Security innovation visual",
-    tags: [{ label: "Security", color: "secondary" }],
-    version: "v2.4.1",
+    tags: [{ label: "Crypton", color: "secondary" },
+           { label: "Ciphera", color: "secondary" }
+    ],
+    // version: "v2.4.1",
     title: "Quantum-Resistant Ledger Patch",
     description:
       "Implementation of lattice-based cryptography across the primary database mesh to future-proof asset integrity.",
@@ -26,8 +28,8 @@ export default function HomePage() {
       "https://lh3.googleusercontent.com/aida-public/AB6AXuASZr9g1trshjlp40va2GbeIzIQcqNfLFOSeo0lTE6RWq_O04M-iqUkRTWjP_0-siGJT_kuyGdLesNwF-2trirCy9YKRRSTQxJItqPyvTxec6l1OPy7kTSqbxRFovHXFUN4XO5YnILm3etoRh2EoMCBtUbFnc8-3C-8A3mGUxA8apXk6gemprUPjjwpRSrc986H_EVIl2RKCTLr31tTGog7cHEUqJeXEoGdenBvxnw6WAF9JrDmoh3I3aMgZ_iMGUVzGeA_H1_k0ErQ",
     imageAlt: "Network orbital relay visual",
     tags: [
-      { label: "Network", color: "primary" },
-      { label: "Global", color: "primary" },
+      { label: "Orbital", color: "primary" },
+      { label: "Orbnet", color: "primary" },
     ],
     title: "Low-Orbit Relay Integration",
     description:
@@ -40,8 +42,8 @@ export default function HomePage() {
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBG_LRk3_bUUxPJ98J5IubAq_p5v4KVQLwU_m5jYUj1cJLSMjxcQGDdvWmq5NIsNyU5wEsS5n-GJUfjXUEn0ADArSDuk0nmQ1jVPzixZqIW_ANFjJinfsLDrZXHrbh6SxpCz957jyM97TqIDYgYJTbg4QS04w7lCUIXUmR--vbAQNmQ7OG6Tr8RqgjDZ-fcnciTMtioEfjJRNPDsC9OV12jVOU9kv-8xUidDo5saBKdd4PHhw6HZr8dVsbrVEvzkj5HWhS9aaFbqqz2",
     imageAlt: "Automation debugging visual",
     tags: [
-      { label: "Automation", color: "tertiary" },
-      { label: "Beta", color: "tertiary" },
+      { label: "AutoDebug", color: "tertiary" },
+      { label: "IntelliDebug", color: "tertiary" },
     ],
     title: "Autonomous Debugging v3",
     description:
@@ -57,8 +59,10 @@ export default function HomePage() {
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCuJeVMzAePdlSuALpqE2A4Bwm-UGHf6-CTBS6XGSfaZHqUkGN_3ZsRKFEIJi1J2bfCFwzZJb3dXNVklKlX1DXUOk7CpAHMBfgMRTdSZiI_Gg5yqn8VLZ4YjzrZqJ6Aw4v-N4WTpvnR_p-wC2ONXL5YhfRAJqjPbxelVrBCUPPiJRGnrM4HF2bGpnxc0UKYGjIV6r1FHvXtJbDnm5OUqwOz8Y0I_sIiHJGH3IbnKoS4e4vBJjD_P0s4wHHl2Ufco4WXLY3MF_1t8_A",
     imageAlt: "Security innovation visual",
-    tags: [{ label: "Security", color: "secondary" }],
-    version: "v2.4.1",
+    tags: [{ label: "WebTech", color: "secondary" },
+           { label: "WebCore", color: "secondary" }
+    ],
+    // version: "v2.4.1",
     title: "Web Engineering",
     description:
       "Building and maintaining modern, secure, and responsive websites and web applications for better user experience and performance.",
@@ -70,8 +74,8 @@ export default function HomePage() {
       "https://lh3.googleusercontent.com/aida-public/AB6AXuASZr9g1trshjlp40va2GbeIzIQcqNfLFOSeo0lTE6RWq_O04M-iqUkRTWjP_0-siGJT_kuyGdLesNwF-2trirCy9YKRRSTQxJItqPyvTxec6l1OPy7kTSqbxRFovHXFUN4XO5YnILm3etoRh2EoMCBtUbFnc8-3C-8A3mGUxA8apXk6gemprUPjjwpRSrc986H_EVIl2RKCTLr31tTGog7cHEUqJeXEoGdenBvxnw6WAF9JrDmoh3I3aMgZ_iMGUVzGeA_H1_k0ErQ",
     imageAlt: "Network orbital relay visual",
     tags: [
-      { label: "Network", color: "primary" },
-      { label: "Global", color: "primary" },
+      { label: "Mobility", color: "primary" },
+      { label: "MobDev", color: "primary" },
     ],
     title: "Mobile Solution Development",
     description:
@@ -84,8 +88,8 @@ export default function HomePage() {
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBG_LRk3_bUUxPJ98J5IubAq_p5v4KVQLwU_m5jYUj1cJLSMjxcQGDdvWmq5NIsNyU5wEsS5n-GJUfjXUEn0ADArSDuk0nmQ1jVPzixZqIW_ANFjJinfsLDrZXHrbh6SxpCz957jyM97TqIDYgYJTbg4QS04w7lCUIXUmR--vbAQNmQ7OG6Tr8RqgjDZ-fcnciTMtioEfjJRNPDsC9OV12jVOU9kv-8xUidDo5saBKdd4PHhw6HZr8dVsbrVEvzkj5HWhS9aaFbqqz2",
     imageAlt: "Automation debugging visual",
     tags: [
-      { label: "Automation", color: "tertiary" },
-      { label: "Beta", color: "tertiary" },
+      { label: "DigiMark", color: "tertiary" },
+      { label: "AdTech", color: "tertiary" },
     ],
     title: "Digital Marketing",
     description:
