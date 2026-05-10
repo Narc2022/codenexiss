@@ -66,44 +66,11 @@ export default function Navbar() {
             ☰
           </button>
 
-          {/* Search */}
-          <div className="hidden lg:flex items-center bg-slate-100 px-3 py-1.5 rounded-lg">
-            <span className="material-symbols-outlined text-gray-500 mr-2 text-[18px]">
-              search
-            </span>
-            <input
-              type="text"
-              placeholder="Search systems..."
-              className="bg-transparent border-none text-xs outline-none w-48"
-            />
-          </div>
-
-          {/* Icons and Profile */}
-          <div className="flex items-center gap-2">
-            <button className="p-2 hover:bg-slate-100 rounded-md transition-all">
-              <span className="material-symbols-outlined">
-                notifications
-              </span>
-            </button>
-
-            <button className="p-2 hover:bg-slate-100 rounded-md transition-all">
-              <span className="material-symbols-outlined">
-                settings
-              </span>
-            </button>
-
-            {/* Profile */}
-            <div className="w-8 h-8 rounded-full overflow-hidden border">
-              <Image
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj3LHoKiXc_N2kGFyvFdnLXvyoBXyXLHu7w5r-jtdx6Tq1SE7-nqR33NHql5DLtUAZVIw4mZoi4hlIW5qHneC2o2jv8ksrA8KDBvlwWKDK7Iqs4LYJLaqm2rVSoqYpbZREeXr7jfLyeWbpn-kFF1kHeqDYq0E_O4s60lt6S71hQOq4x1WknU7AMWBV3ABnWz9PH48Dv0pE4y3D28K8yrzDbqmg9JnjuBpGwMbSRepteu_3DmhU1fX8n-8Z13OHdHoXPjqvmkiiY3PK"
-                alt="User profile"
-                width={32}
-                height={32}
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
+<Link href="/contact-us">
+  <button className="prismatic-gradient text-on-primary px-6 py-2.5 rounded-lg text-sm font-bold font-headline tracking-tight scale-95 active:scale-90 transition-transform">
+    Get Started
+  </button>
+</Link>        </div>
       </div>
 
       {/* Mobile Menu */}
