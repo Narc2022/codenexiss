@@ -18,11 +18,10 @@ export default function NewsletterSection() {
         {/* Text */}
         <div>
           <h2 className="text-3xl lg:text-4xl font-headline font-bold text-inverse-on-surface mb-4">
-            Subscribe to the Core Stream.
+            Subscribe for Updates
           </h2>
           <p className="text-surface-variant/80 text-lg leading-relaxed">
-            Receive daily technical manifests and architectural breakthroughs
-            directly to your terminal.
+            Receive technical insights, strategic manifests, and architectural breakthroughs directly to your terminal.
           </p>
         </div>
 
