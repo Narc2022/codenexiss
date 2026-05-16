@@ -3,10 +3,10 @@
 export default function DigitalMarketingHero() {
   return (
     <section className="relative px-8 py-24 md:py-6 overflow-hidden bg-surface">
-      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12">
 
         {/* ── Left copy ── */}
-        <div className="flex-1 z-10">
+        <div className="flex-1 z-10 lg:mt-[31px]">
           {/* Protocol badge */}
           <div className="inline-flex items-center px-3 py-1 bg-secondary-fixed rounded-full mb-6 gap-2">
             <svg className="w-4 h-4 text-on-secondary-fixed" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
