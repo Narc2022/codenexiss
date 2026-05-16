@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function DigitalMarketingPage() {
   return (
-    <main className="pt-24">
+    <main className="">
       {/* Hero — headline, neural network visual, protocol badge */}
       <DigitalMarketingHero />
 

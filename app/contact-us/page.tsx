@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="pt-24 pb-20">
+    <main className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8">
       {/* ── Hero: headline, UTC clock, service selector ── */}
       <ContactHero />
 
       {/* ── Main form + sidebar ── */}
-      <section className="max-w-7xl mx-auto px-8 grid lg:grid-cols-12 gap-12 items-start mb-8">
+      <section className="max-w-[1920px] mx-auto px-8 grid lg:grid-cols-12 gap-12 items-start mb-8">
         <div className="lg:col-span-8">
           <ContactForm />
         </div>

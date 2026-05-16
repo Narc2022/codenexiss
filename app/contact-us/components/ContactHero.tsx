@@ -48,7 +48,7 @@ export default function ContactHero() {
   }, []);
 
   return (
-    <header className="max-w-7xl mx-auto px-8 mb-16">
+    <header className="max-w-[1920px] mx-auto px-8 mb-16">
       {/* Headline row */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
         <div className="max-w-2xl">
