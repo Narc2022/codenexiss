@@ -35,7 +35,7 @@ export default function NewsletterSection() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="dev@domain.nexus"
+            placeholder="codenexiss@gmail.com"
             required
             className="flex-grow bg-surface-container-highest/10 border border-surface-variant/20 rounded-lg px-6 py-4 text-white mono-data focus:ring-2 focus:ring-primary focus:border-transparent outline-none placeholder:text-white/30"
           />

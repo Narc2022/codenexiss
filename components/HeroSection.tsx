@@ -82,7 +82,7 @@ export default function HeroSection() {
               </span>
 
               <h3 className="text-2xl font-headline font-bold mb-4">
-                Initialize New Node
+                Launch Your Business
               </h3>
 
               <p className="text-sm opacity-80 mb-6">
@@ -92,7 +92,7 @@ export default function HeroSection() {
             </div>
 
             <button className="relative z-10 bg-on-primary-container text-primary-container font-headline font-bold py-3 px-6 rounded-lg transition-transform active:scale-95 flex items-center justify-center gap-2">
-              <span>Deploy Now</span>
+              <span>Start Now</span>
               <span className="material-symbols-outlined text-sm">
                 rocket_launch
               </span>
