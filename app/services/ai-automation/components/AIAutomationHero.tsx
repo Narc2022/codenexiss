@@ -8,7 +8,7 @@ const diagnostics = [
 
 export default function AIAutomationHero() {
   return (
-    <section className="relative overflow-hidden pt-24 pb-16 px-6 lg:px-8 bg-surface">
+    <section className="max-w-[1920px] mx-auto px-6 lg:px-10 pt-8 pb-16 relative overflow-hidden">
       {/* Prismatic bloom */}
       <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
         <div className="w-full h-full prismatic-gradient filter blur-3xl rounded-full translate-x-1/2 -translate-y-1/2" />
