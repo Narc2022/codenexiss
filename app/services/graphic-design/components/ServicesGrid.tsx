@@ -104,8 +104,7 @@ export default function ServicesGrid() {
             <PentagonIcon className="w-10 h-10 text-primary mb-4" />
             <h4 className="text-2xl font-bold font-headline mb-3">Logo Design</h4>
             <p className="text-on-surface-variant max-w-md">
-              Creative and unique logo designs that represent your brand identity
-              through mathematical balance and artistic flair.
+              Your logo is the face of your brand,it’s the first thing people notice and the symbol they remember. We design unique, creative, and meaningful logos that represent your business identity and leave a lasting impression on your audience
             </p>
           </div>
           {/* Ghost watermark */}
@@ -119,8 +118,7 @@ export default function ServicesGrid() {
           <StyleIcon className="w-10 h-10 text-secondary mb-4" />
           <h4 className="text-2xl font-bold font-headline mb-3">Brand Identity Kit</h4>
           <p className="text-on-surface-variant text-sm mb-6">
-            Complete branding solutions including color palette, typography, and
-            precise brand guidelines.
+            Your brand is more than just a logo,it’s the complete experience your audience has with your business. Our Brand Identity Kit services help you create a cohesive and professional brand presence across all platforms, ensuring consistency, recognition, and trust.
           </p>
           <div className="flex gap-2 mt-auto">
             <div className="w-8 h-8 rounded-full bg-primary shadow-inner" />
@@ -134,8 +132,7 @@ export default function ServicesGrid() {
           <SocialIcon className="w-10 h-10 text-tertiary mb-4" />
           <h4 className="text-xl font-bold font-headline mb-2">Social Media Creatives</h4>
           <p className="text-on-surface-variant text-sm">
-            Eye-catching posts and designs tailored for rapid engagement across
-            all digital platforms.
+            In today’s digital world, social media is where brands connect, engage, and grow their audience. Our Social Media Creatives services help you stand out with visually appealing, scroll-stopping designs that boost engagement and strengthen your brand presence across all platforms.
           </p>
         </div>
 
@@ -145,8 +142,7 @@ export default function ServicesGrid() {
             <PlayIcon className="w-10 h-10 mb-4" />
             <h4 className="text-xl font-bold font-headline mb-2">YouTube Thumbnails</h4>
             <p className="text-on-secondary/80 text-sm">
-              High-converting thumbnails designed with psychological triggers to
-              maximize CTR.
+              Your thumbnail is the first thing viewers notice and it decides whether they click or scroll away. We design eye-catching, high-converting YouTube thumbnails that grab attention instantly, increase click-through rates, and help your videos reach a wider audience.
             </p>
           </div>
           <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-white/10 rounded-full blur-2xl pointer-events-none" />
@@ -157,8 +153,7 @@ export default function ServicesGrid() {
           <PosterIcon className="w-10 h-10 text-primary mb-4" />
           <h4 className="text-xl font-bold font-headline mb-2">Posters &amp; Banners</h4>
           <p className="text-on-surface-variant text-sm">
-            Creative visual communication for high-impact promotions and event
-            advertisements.
+            Posters and banners are powerful marketing tools that communicate your message quickly and effectively. We design visually striking posters and banners that grab attention, promote your brand, and drive action both online and offline.
           </p>
         </div>
 
@@ -167,8 +162,7 @@ export default function ServicesGrid() {
           <CardIcon className="w-10 h-10 text-secondary mb-4" />
           <h4 className="text-lg font-bold font-headline mb-2">Business Cards</h4>
           <p className="text-on-surface-variant text-xs">
-            Tactile, professional designs that leave an indelible first
-            impression.
+            A business card is more than just contact information—it’s a powerful branding tool that represents your business identity. We design professional, creative, and memorable business cards that leave a lasting impression and help you stand out in every interaction.
           </p>
         </div>
 
@@ -179,8 +173,7 @@ export default function ServicesGrid() {
               <BookIcon className="w-10 h-10 text-primary mb-4" />
               <h4 className="text-xl font-bold font-headline mb-2">Brochure Design</h4>
               <p className="text-on-surface-variant text-sm">
-                Informative layouts and visually appealing brochures optimized for
-                storytelling.
+                A brochure is one of the most powerful marketing tools to showcase your business, products, and services in a structured and visually appealing way. We design creative, informative, and professional brochures that help you communicate your brand story effectively and leave a lasting impression.
               </p>
             </div>
             {/* Mockup placeholder */}
@@ -202,8 +195,7 @@ export default function ServicesGrid() {
           <PackageIcon className="w-10 h-10 text-tertiary mb-4" />
           <h4 className="text-lg font-bold font-headline mb-2">Packaging Design</h4>
           <p className="text-on-surface-variant text-xs">
-            Unboxing experiences that elevate product value through structural
-            design.
+            In today’s competitive market, packaging is more than just protection,it’s a powerful marketing tool. We design creative, attractive, and brand-focused packaging that grabs attention, builds trust, and influences buying decisions right at the shelf or online store.
           </p>
         </div>
 
@@ -212,8 +204,7 @@ export default function ServicesGrid() {
           <PresentationIcon className="w-10 h-10 text-secondary mb-4" />
           <h4 className="text-xl font-bold font-headline mb-2">Presentation Design</h4>
           <p className="text-on-surface-variant text-sm">
-            High-stakes slide systems designed for business pitches and corporate
-            laboratories.
+            A great presentation is more than just slides,it’s a storytelling tool that influences decisions, wins clients, and inspires action. We design professional, visually engaging, and impactful presentations that help you communicate your message with clarity and confidence.
           </p>
         </div>
 
@@ -222,7 +213,7 @@ export default function ServicesGrid() {
           <div>
             <h4 className="text-2xl font-bold font-headline mb-2">Image Editing</h4>
             <p className="text-on-tertiary/80 text-sm max-w-xs">
-              Surgical retouching and high-fidelity photo manipulation.
+              High-quality images make a powerful impact in today’s visual-first world. Our image editing services help you enhance, retouch, and perfect your visuals for websites, social media, marketing, and e-commerce platforms—ensuring your brand always looks professional and attractive.
             </p>
           </div>
           <PhotoIcon className="w-16 h-16 opacity-30 shrink-0" />

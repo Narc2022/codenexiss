@@ -28,9 +28,7 @@ export default function GraphicDesignHero() {
           </h1>
 
           <p className="text-on-surface-variant text-lg leading-relaxed mb-10 max-w-md">
-            Transforming brands with surgical precision. We blend technical rigor
-            with artistic intuition to construct immersive digital and physical
-            identities.
+            Competitive digital world, powerful visuals are essential to capture attention and build a strong brand identity. Our graphic designing services help businesses create visually appealing, impactful, and memorable designs that communicate their message effectively.
           </p>
 
           <div className="flex flex-wrap gap-4">

@@ -24,11 +24,10 @@ export default function CTASection() {
 
         <div className="text-center">
           <h2 className="text-4xl font-bold font-headline mb-6">
-            Ready to initiate your brand transformation?
+            Ready to transform your brand into a visually unforgettable experience?
           </h2>
           <p className="text-on-surface-variant mb-10 max-w-2xl mx-auto leading-relaxed">
-            Our lab is currently accepting new design commissions. Every project
-            undergoes our rigorous multi-stage quality assurance process.
+            Our creative design studio delivers bold, modern, and strategically crafted visuals refined through a precision-driven quality process.
           </p>
 
           <form
