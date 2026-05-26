@@ -10,9 +10,7 @@ export default function CTASection() {
             Ready to evolve your operations?
           </h2>
           <p className="text-on-surface-variant text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
-            Deploy custom AI agents and automated architectures designed
-            specifically for your organizational goals. Start your
-            transformation today.
+            Deploy custom AI agents and intelligent automation systems tailored to your business goals and digital infrastructure. Our AI-driven solutions enhance efficiency, streamline operations, and deliver scalable performance for modern organizations.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-6">
