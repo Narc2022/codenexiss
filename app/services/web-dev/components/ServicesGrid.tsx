@@ -9,7 +9,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Corporate glass skyscraper facade reflecting blue sky',
     title: 'Business Development',
     description:
-      'High-authority digital footprints designed for corporate credibility and market dominance.',
+      'High-authority digital footprints designed for corporate credibility, market dominance.Strategic growth frameworks engineered for market expansion, revenue acceleration, and long-term business success, increase profitability, and drive sustainable growth.',
     metaLabel: 'DEPLOY',
     metaValue: 'OPTIMAL',
   },
@@ -21,7 +21,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Digital padlock glowing on circuit board',
     title: 'E-commerce Scalability',
     description:
-      'Secure, frictionless commerce engines built to handle peak-load transactional density.',
+      'We provide end-to-end e-commerce website development services to help businesses build, launch, and scale their online stores. Our solutions are designed to deliver seamless user experiences, secure transactions, and high performance across all devices.',
     metaLabel: 'BANDWIDTH',
     metaValue: '824_USD',
   },
@@ -33,7 +33,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Golden sun flare over digital horizon, conversion metaphor',
     title: 'Conversion Landing',
     description:
-      'Precision-targeted pages engineered for maximum lead generation and user retention.',
+      'Our landing page design services are focused on creating visually appealing and high-converting pages that capture attention and drive results. Whether you need a page for lead generation, product promotion, or marketing campaigns, we design with performance in mind.',
     metaLabel: 'CONV_RATE',
     metaValue: 'STAR',
   },
@@ -45,7 +45,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Abstract colorful motion blur of light trails',
     title: 'Visual Portfolio',
     description:
-      'Ethereal showcases for creative entities requiring high-fidelity visual storytelling.',
+      'Our portfolio website development services help individuals and businesses showcase their work, skills, and achievements in a professional and visually appealing way. Whether you are a freelancer, designer, developer, or company, we create portfolios that leave a lasting impression.',
     metaLabel: 'VISUAL',
     metaValue: 'HI_RESL',
   },
@@ -57,7 +57,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Laser beam hitting a circuit chip, system redesign visual',
     title: 'System Redesign',
     description:
-      'Modernizing legacy infrastructure with next-gen UI frameworks and performance audits.',
+      'Our website redesign services focus on transforming your existing website into a modern, high-performing, and user-friendly platform. We enhance design, functionality, and performance to improve user experience and drive better business results.',
     metaLabel: 'LEGACY_FLUSH',
     metaValue: 'COMPLETED',
   },
@@ -69,7 +69,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Orbital view of earth at night with glowing data connectivity lines',
     title: 'SEO Optimization',
     description:
-      'Strategic algorithmic alignment to ensure maximum discoverability in the global search graph.',
+      'Precision-engineered search strategies designed to maximize visibility, authority, and organic growth across digital ecosystems..Algorithm-focused growth strategies that transform search visibility into measurable business success.High-performance SEO ecosystems designed to increase relevance, reach, and industry influence.',
     metaLabel: 'INDEX_REACH',
     metaValue: 'GLOBAL',
   },
@@ -81,7 +81,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Ultra fast motion blur of fiber optic data streams in cool blue tones',
     title: 'Speed Protocols',
     description:
-      'Aggressive performance tuning reducing time-to-interactive to near-instantaneous thresholds.',
+      'Advanced performance optimization engineered to reduce load times, enhance system responsiveness, and maximize application efficiency. We fine-tune every layer of the digital experience to ensure faster interactions, improved stability.',
     metaLabel: 'LOAD_TIME',
     metaValue: '<1.2s',
   },
@@ -93,7 +93,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Digital dashboard showing real-time security monitoring with green status pulses',
     title: 'System Maintenance',
     description:
-      '24/7 technical surveillance, security patching, and core ecosystem stability management.',
+      '24/7 technical monitoring, proactive security patch management, and infrastructure maintenance to ensure maximum uptime, reliability, and long-term ecosystem stability. Our continuous support mitigate risks, and keep critical systems operating at peak efficiency.',
     metaLabel: 'UPTIME',
     metaValue: '99.9%',
   },
@@ -105,7 +105,7 @@ const services: ServiceCardProps[] = [
     imageAlt: 'Abstract layered glass panels with frosted texture and soft purple glowing edges',
     title: 'UI/UX Protocol',
     description:
-      'Crafting high-engagement interfaces that balance scientific utility with aesthetic pleasure.',
+      'Designing intuitive, user-centric digital experiences that seamlessly blend functionality, usability, and visual excellence. We create engaging interfaces that enhance user satisfaction, improve accessibility, mobile platforms.',
     metaLabel: 'UX_SCORE',
     metaValue: 'OPTIMAL',
   },
