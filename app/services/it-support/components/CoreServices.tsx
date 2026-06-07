@@ -4,7 +4,7 @@ const services = [
   {
     icon: "dns",
     title: "Hosting Setup",
-    desc: "Reliable hosting setup for performance and security. Engineered for scalability and extreme throughput.",
+    desc: "Launch your website smoothly with our professional Hosting Setup Services. We help you set up, configure, and optimize your hosting environment to ensure fast performance, security, and reliability.",
     status: "Ready for Deploy",
     statusColor: "text-primary",
     iconBg: "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white",
@@ -14,7 +14,7 @@ const services = [
   {
     icon: "language",
     title: "Domain Setup",
-    desc: "Domain registration and configuration for your business. Full DNS management and global propagation tracking.",
+    desc: "Start your online journey with our professional Domain Setup Services. We help you register, configure, and manage your domain to ensure it's secure, and professionally set up.",
     status: "DNS Propagation Active",
     statusColor: "text-secondary",
     iconBg: "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-white",
@@ -34,7 +34,7 @@ const services = [
   {
     icon: "shield",
     title: "Website Security",
-    desc: "Implementation of security measures to protect your website. WAF filtering, DDoS mitigation, and SSL hardening.",
+    desc: "Protect your website from threats with our professional Website Security Services. We provide advanced security solutions to safeguard your data, prevent cyber attacks, and ensure your website runs safely and smoothly.Measures to protect your website. WAF filtering, DDoS mitigation, and SSL hardening.",
     status: "Threat Shield Active",
     statusColor: "text-error",
     iconBg: "bg-error/10 text-error group-hover:bg-error group-hover:text-white",
@@ -44,7 +44,7 @@ const services = [
   {
     icon: "backup",
     title: "Backup Systems",
-    desc: "Automated backup solutions to prevent data loss. Off-site replication with 99.9% retrieval success rate.",
+    desc: "Ensure your data is always safe and recoverable with our professional Backup Systems Services. We design and implement reliable backup solutions that protect your business from data loss, cyber threats, and unexpected system failures. Off-site replication with 99.9% retrieval success rate.",
     status: "Last Sync 2m Ago",
     statusColor: "text-primary-container",
     iconBg: "bg-primary-container/20 text-primary-container group-hover:bg-primary-container group-hover:text-on-primary-container",
@@ -54,7 +54,7 @@ const services = [
   {
     icon: "support_agent",
     title: "Technical Support",
-    desc: "Ongoing technical assistance for all your digital needs. Direct access to L3 engineers for complex troubleshooting.",
+    desc: "Keep your systems running smoothly with our professional Technical Support Services. We provide reliable, fast, and expert assistance to resolve technical issues, minimize downtime, and ensure seamless operations for your business.Direct access to L3 engineers for complex troubleshooting.",
     status: "Live Support Online",
     statusColor: "text-on-surface",
     iconBg: "bg-on-surface/10 text-on-surface group-hover:bg-on-surface group-hover:text-surface",
