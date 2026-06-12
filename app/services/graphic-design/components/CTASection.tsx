@@ -44,7 +44,7 @@ export default function CTASection() {
             />
             <button
               type="submit"
-              className="prism-gradient text-white px-10 py-4 rounded-lg font-bold font-headline shadow-lg hover:opacity-90 hover:shadow-secondary/20 transition-all"
+              className="prism-gradient px-10 py-4 rounded-lg font-bold font-headline shadow-lg hover:opacity-90 hover:shadow-secondary/20 transition-all"
             >
               Request Audit
             </button>

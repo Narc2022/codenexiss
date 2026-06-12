@@ -32,7 +32,7 @@ export default function GraphicDesignHero() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="prism-gradient text-white px-7 py-3.5 rounded-lg font-headline font-bold text-sm tracking-tight shadow-lg hover:opacity-90 transition-opacity">
+            <button className="prism-gradient px-7 py-3.5 rounded-lg font-headline font-bold text-sm tracking-tight shadow-lg hover:opacity-90 transition-opacity">
               Initiate Project
             </button>
             <button className="px-7 py-3.5 rounded-lg border border-outline-variant font-headline font-bold text-sm text-on-surface hover:bg-surface-container transition-colors">
