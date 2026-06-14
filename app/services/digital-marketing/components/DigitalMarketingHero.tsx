@@ -19,7 +19,7 @@ export default function DigitalMarketingHero() {
 
           <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tight text-on-surface mb-6 leading-[1.05]">
             Digital Marketing{" "}
-            <span className="text-transparent bg-clip-text prismatic-gradient">Systems</span>
+            <span className="text-prism">Systems</span>
           </h1>
 
           <p className="text-xl text-on-surface-variant max-w-xl leading-relaxed mb-10">

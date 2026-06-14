@@ -5,8 +5,8 @@ const services: ServiceCardProps[] = [
     type: 'BIZ_DMN',
     typeColor: 'primary',
     imageSrc:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBzd_pqkIgc9PUJOg2UzKRyvEOVqbQ7rMxhRQqEeMi-Q8P5qIb_sS7_9OtHJZxX1LtU-yBEqLbJPDGLFAh5CbCZ6n9-bfANJQnJEiGxEkjwTGvBmpOr1bwknf5SasONUJxFJVf2MXxRwq5xRb-XKY2Sn5GlxS2f23tYxiQNLB8e5l1jvCLOANqLU6mFi4AXVPHePHxE1mOfq3JY2b7UxKiudJAb17Bk7RwIHy0hXx8PbPxgq01pQ_yCDgGEKfBWmPm0rCT82WiY',
-    imageAlt: 'Corporate glass skyscraper facade reflecting blue sky',
+      'https://res.cloudinary.com/dn4zh9pyq/image/upload/q_auto/f_auto/v1781455738/Business-development_eyqs66.jpg',
+    imageAlt: 'Business Development',
     title: 'Business Development',
     description:
       'High-authority digital footprints designed for corporate credibility, market dominance.Strategic growth frameworks engineered for market expansion, revenue acceleration, and long-term business success, increase profitability, and drive sustainable growth.',
@@ -17,8 +17,8 @@ const services: ServiceCardProps[] = [
     type: 'TRANS_ENGN',
     typeColor: 'secondary',
     imageSrc:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBQJnWNqJCsHsYg-6oTlqPUGT0z8o6_Gb-O5cMaFb0yz3eZaMGf9RbvP_VhTNx0I-cEG0jtTdCOoWr3RX4szF4lh1CQXBcR-3xRAfbbKWmrp1Moh7VRSVrRrn_nIsTbxJoUzSwQFcGz_kJi4ZwS9Hd-YZL0VPaR4ICzjstPXCt1-4kbPL4mFl1UNpQ9pOlV-IjfM2wj4BkBa_W6FTUD1S7k0FTID5fK1kqxAPyEbz4vAFxkMxHk_TRF2hXarSl1aEFoQbWE1N8',
-    imageAlt: 'Digital padlock glowing on circuit board',
+      'https://res.cloudinary.com/dn4zh9pyq/image/upload/q_auto/f_auto/v1781457472/E-commerce_Scalability_p2s6dx.jpg',
+    imageAlt: 'E-commerce Scalability',
     title: 'E-commerce Scalability',
     description:
       'We provide end-to-end e-commerce website development services to help businesses build, launch, and scale their online stores. Our solutions are designed to deliver seamless user experiences, secure transactions, and high performance across all devices.',
@@ -29,8 +29,8 @@ const services: ServiceCardProps[] = [
     type: 'CONV_J',
     typeColor: 'tertiary',
     imageSrc:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDyFuEq-z4JB-DXwWqPvHZqq_3YCXN6IlNUgb2Mq0mUxhZ9VidCIV3XLHbHLjJmGfaVR0sBFq5BW-VZUA-0CaB_4t-NRFzLnD1tUfnYJXkT-gpFrKD2v0xrqjTdCdHJg8A3_w_9BPpXXJq7y9vvJJ3gMgOUqwTkTWXqq5XoJxmUCkgvKrE-RFzBw5VYqbMIWwYkzSnzKaE_p0i2jtxFtJkQwk-HHgQZhqHJG8u_vNBVqDm_eV3tZFXqkpWiPm8mFOL5XgV8s',
-    imageAlt: 'Golden sun flare over digital horizon, conversion metaphor',
+      'https://res.cloudinary.com/dn4zh9pyq/image/upload/q_auto/f_auto/v1781457424/Conversion_Landing_mzoihc.jpg',
+    imageAlt: 'Conversion Landing',
     title: 'Conversion Landing',
     description:
       'Our landing page design services are focused on creating visually appealing and high-converting pages that capture attention and drive results. Whether you need a page for lead generation, product promotion, or marketing campaigns, we design with performance in mind.',
@@ -41,8 +41,8 @@ const services: ServiceCardProps[] = [
     type: 'SHOWCASE',
     typeColor: 'primary',
     imageSrc:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCQ_CkhtH5Cq1H4Y2nPuTi7kPlxnQ5Ck7XjCk9c0X8kXEb4gMImBRvFN0vZKGhJMhxDCWB1hSBt-5MtJU-4vr4e3Av4l4wUVhWPxs1KcU-OcVG0kJd_UMvHRjHjzBbfZK3oJMhFHMV2vMCxiDXfqbgSfYD4gdqaP5WmGx-oXe71xijm0gixizW2rq8VHSH1KpR3T6Kpg7lQkZXlmO0J1HXPF4jJwWPMzNZ9bIUdAo2N7tJAJNb4KnGrJTvBv7M5TvKG3i2Wos',
-    imageAlt: 'Abstract colorful motion blur of light trails',
+      'https://res.cloudinary.com/dn4zh9pyq/image/upload/q_auto/f_auto/v1781458406/visual_portfolio_gpq9jp.webp',
+    imageAlt: 'Visual Portfolio',
     title: 'Visual Portfolio',
     description:
       'Our portfolio website development services help individuals and businesses showcase their work, skills, and achievements in a professional and visually appealing way. Whether you are a freelancer, designer, developer, or company, we create portfolios that leave a lasting impression.',
@@ -53,8 +53,8 @@ const services: ServiceCardProps[] = [
     type: 'REFACTOR',
     typeColor: 'secondary',
     imageSrc:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDrmvk_3TQAkMy5rCc7YFKBkR7GMdPKIkJ8D4rQ8Q0FQmPeWX8gJQgBnFi4AaFGnc2xjNq4V0YTXF-yHcvW7Y1guwuA3Ql4QYWHQIJkneMV-T5-K-lN29WnlkmN3_y7Ic7E9HtJ8JjBBt6r_NI0Nj_hFUFMEQ5CtWF8r0mVSN2Q23NyGzPlMSHi3JcMzSUFw8aaohH1y8-MxiNhHKyOV2HWLfGBCCy-bAFhsKjvQ5DFhMRCW7NjPzIz7xwLQ0Vz7mBpqjhM3A8',
-    imageAlt: 'Laser beam hitting a circuit chip, system redesign visual',
+      'https://res.cloudinary.com/dn4zh9pyq/image/upload/q_auto/f_auto/v1781457934/System_Redesign_czyljc.jpg',
+    imageAlt: 'System Redesign',
     title: 'System Redesign',
     description:
       'Our website redesign services focus on transforming your existing website into a modern, high-performing, and user-friendly platform. We enhance design, functionality, and performance to improve user experience and drive better business results.',
