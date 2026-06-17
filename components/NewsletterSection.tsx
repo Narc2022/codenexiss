@@ -1,15 +1,39 @@
 "use client";
 
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function NewsletterSection() {
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle subscription
-    console.log("Subscribing:", email);
-    setEmail("");
+   const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!email) {
+    toast.error("Please enter an email");
+    return;
+  }
+    try {
+      const res = await fetch("/api/subscription", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        toast.success("Email sent successfully!");
+        setEmail("");
+      } else {
+        toast.error("Failed to send email!");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong");
+    }
   };
 
   return (
