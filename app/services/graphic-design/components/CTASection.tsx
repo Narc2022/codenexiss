@@ -1,15 +1,39 @@
 "use client";
 
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function CTASection() {
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: wire up to your API / email service
-    alert(`Audit requested for: ${email}`);
-    setEmail("");
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!email) {
+    toast.error("Please enter an email");
+    return;
+  }
+    try {
+      const res = await fetch("/api/audit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        toast.success("Email sent successfully!");
+        setEmail("");
+      } else {
+        toast.error("Failed to send email!");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong");
+    }
   };
 
   return (
@@ -29,7 +53,8 @@ export default function CTASection() {
           <p className="text-on-surface-variant mb-10 max-w-2xl mx-auto leading-relaxed">
             Our creative design studio delivers bold, modern, and strategically crafted visuals refined through a precision-driven quality process.
           </p>
-
+          
+           {/* Form */}
           <form
             onSubmit={handleSubmit}
             className="flex flex-col sm:flex-row gap-4 justify-center"
