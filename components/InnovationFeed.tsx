@@ -51,7 +51,7 @@ export default function InnovationFeed({ feedItems,title,miniTitle }: { feedItem
         <div>
           <p className="technical-label text-outline mb-1">{miniTitle || "The Neural Feed"}</p>
           <h2 className="font-headline font-bold text-3xl text-on-surface">
-            {title || "Innovation Updates"}
+            {title || "Work in Progress"}
           </h2>
         </div>
         <div className="flex items-center gap-2">

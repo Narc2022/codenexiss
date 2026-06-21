@@ -23,9 +23,15 @@ export default function Navbar() {
     <nav className="bg-white/70 backdrop-blur-md sticky top-0 z-50 shadow-[0_4px_30px_rgba(0,0,0,0.05)] after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gradient-to-r after:from-indigo-500 after:via-purple-500 after:to-transparent">
 
       <div className="flex justify-between items-center w-full px-6 py-3 max-w-[1920px] mx-auto">
-
         {/* Left */}
         <div className="flex items-center gap-8">
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden p-2 text-2xl ali"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            ☰
+          </button>
           <span className="text-xl font-bold font-headline text-slate-900">
             CodeNexiss
           </span>
@@ -57,20 +63,12 @@ export default function Navbar() {
 
         {/* Right */}
         <div className="flex items-center gap-4">
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2 text-2xl"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            ☰
-          </button>
-
-<Link href="/contact-us">
-  <button className="prismatic-gradient text-on-primary px-6 py-2.5 rounded-lg text-sm font-bold font-headline tracking-tight scale-95 active:scale-90 transition-transform">
-    Get Started
-  </button>
-</Link>        </div>
+          <Link href="/contact-us">
+            <button className="prismatic-gradient text-on-primary px-6 py-2.5 rounded-lg text-sm font-bold font-headline tracking-tight scale-95 active:scale-90 transition-transform">
+              Get Started
+            </button>
+          </Link>
+        </div>
       </div>
 
       {/* Mobile Menu */}
