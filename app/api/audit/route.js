@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export async function POST(request) {
     try {
-        const { email } = await request.json();
+        const { email, phone } = await request.json();
 
         const transporter = nodemailer.createTransport({
             host: "smtp.gmail.com",
@@ -26,6 +26,7 @@ export async function POST(request) {
         <h2>New Graphic Design Service Request!</h2>
         <p>A visitor has submitted a request for Graphic Design Services.</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Mobile no:</strong> ${phone}</p>
         <p><strong>Time:</strong> ${new Date().toLocaleString()}</p>
       `,
         });

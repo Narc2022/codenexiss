@@ -1,34 +1,36 @@
 "use client";
 
+import { Phone } from "lucide-react";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
 export default function CTASection() {
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
-  if (!email) {
-    toast.error("Please enter an email");
-    return;
-  }
+  if (!email || !phone) {
+      toast.error("Please enter an email and mobile number");
+      return;
+    }
     try {
       const res = await fetch("/api/audit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, Phone }),
       });
 
       const data = await res.json();
 
       if (data.success) {
-        toast.success("Email sent successfully!");
+        toast.success("Details sent successfully!");
         setEmail("");
       } else {
-        toast.error("Failed to send email!");
+        toast.error("Failed to send email & mobile no!");
       }
     } catch (error) {
       console.error(error);
@@ -65,7 +67,16 @@ export default function CTASection() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter laboratory email..."
-              className="bg-surface-container border-none rounded-lg px-6 py-4 w-full sm:w-80 font-mono text-[12px] focus:outline-none focus:ring-2 focus:ring-secondary placeholder:text-outline"
+              className="bg-surface-container border-none rounded-lg px-6 py-4 sm:w-75 font-mono text-[12px] focus:outline-none focus:ring-2 focus:ring-secondary placeholder:text-outline"
+            />
+            <input
+              type="tel"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              placeholder="Enter Mobile no...."
+              required
+              pattern="[0-9]{10}"
+              className="bg-surface-container border-none rounded-lg px-6 py-4 sm:w-75 font-mono text-[12px] focus:outline-none focus:ring-2 focus:ring-secondary placeholder:text-outline"
             />
             <button
               type="submit"

@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export async function POST(request) {
     try {
-        const { email } = await request.json();
+        const { email, phone } = await request.json();
 
         const transporter = nodemailer.createTransport({
             host: "smtp.gmail.com",
@@ -21,11 +21,12 @@ export async function POST(request) {
         await transporter.sendMail({
             from: process.env.EMAIL_USER,
             to: process.env.EMAIL_USER,
-            subject: "Newsletter Subscriber",
+            subject: "Newsletter Subscribed",
             html: `
-        <h2>New Subscriber on home page! </h2>
-        <p>Subscribe for Business & Innovation.CodeNexiss builds ultra-refined neural architectures for high-density enterprise logic. Deploy with surgical precision.</p>
+        <h2>New Subscriber on subscriber home page! </h2>
+        <p>A visitor has subscribed for Business & Innovation.CodeNexiss builds ultra-refined neural architectures for high-density enterprise logic.</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Mobile no:</strong> ${phone}</p>
         <p><strong>Time:</strong> ${new Date().toLocaleString()}</p>
       `,
         });
