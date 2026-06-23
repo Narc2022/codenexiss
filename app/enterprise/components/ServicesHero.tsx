@@ -14,7 +14,7 @@ export default function ServicesHero() {
 
         <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tight text-on-surface mb-6 leading-[1.1]">
           Custom Enterprise{" "}
-          <span className="text-secondary">Portals.</span>
+          <span className="bg-gradient-to-r from-[#0E6A8A] via-[#3150D6] to-[#8B3DFF] bg-clip-text text-transparent">Portals.</span>
         </h1>
 
         <p className="text-on-surface-variant text-lg leading-relaxed mb-10 max-w-xl">
