@@ -1,6 +1,5 @@
 "use client";
 
-import { Phone } from "lucide-react";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
@@ -16,12 +15,12 @@ export default function CTASection() {
       return;
     }
     try {
-      const res = await fetch("/api/audit", {
+      const res = await fetch("/api/services/graphic-design", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email, Phone }),
+        body: JSON.stringify({ email, phone }),
       });
 
       const data = await res.json();
