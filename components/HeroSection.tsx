@@ -38,12 +38,12 @@ export default function HeroSection() {
               Engineering{" "}
               <span className="text-prismatic">Prismatic</span> Intelligence.
             </h1>
-
-            <p className="text-on-surface-variant text-lg lg:text-xl max-w-xl font-body mb-10 leading-relaxed">
-              CodeNexiss builds ultra-refined neural architectures for
-              high-density enterprise logic. Deploy with surgical precision.
+            <p className="text-on-surface-variant text-lg lg:text-xl max-w-xl font-body mb-1 leading-relaxed">
+              CodeNexiss builds modern web, app, and digital solutions.
             </p>
-
+            <p className="text-on-surface-variant text-lg lg:text-xl max-w-xl font-body mb-10 leading-relaxed">
+              3D printing, IoT, robotics, and drone technologies — coming soon.
+            </p>
             <div className="mt-auto grid grid-cols-2 md:grid-cols-4 gap-4">
               {stats.map((item) => (
                 <div

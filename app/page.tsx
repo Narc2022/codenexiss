@@ -103,7 +103,7 @@ export default function HomePage() {
         <PartnersBar />
         <InnovationFeed feedItems={serviceItems2} title="Advanced Services" miniTitle="The Next-Gen Service Engine" />
         <NewsletterSection />
-        <InnovationFeed feedItems={feedItems} />
+        <InnovationFeed feedItems={feedItems} title="Upcoming Services" miniTitle="fFuture Feed" />
       </main>
     </>
   );
