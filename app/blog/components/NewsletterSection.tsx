@@ -1,13 +1,41 @@
 "use client";
 
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function NewsletterSection() {
   const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const [phone, setPhone] = useState("");
 
-  const handleSubmit = () => {
-    if (email.trim()) setSubmitted(true);
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!email || !phone) {
+      toast.error("Please enter an email and mobile number");
+      return;
+    }
+    try {
+      const res = await fetch("/api/homepage_subscription", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, phone, }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        toast.success("Details sent successfully!");
+        setEmail("");
+        setPhone("");
+      } else {
+        toast.error("Failed to send email & mobile no!");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong");
+    }
   };
 
   return (
@@ -35,34 +63,35 @@ export default function NewsletterSection() {
           insights delivered to your terminal.
         </p>
 
-        {submitted ? (
-          <div className="flex items-center gap-3 bg-white/20 backdrop-blur-md border border-white/30 rounded-lg px-6 py-4 max-w-md">
-            <svg className="w-5 h-5 text-emerald-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span className="font-mono text-sm">
-              Subscribed. First dispatch inbound.
-            </span>
-          </div>
-        ) : (
-          <div className="flex flex-col sm:flex-row gap-4 max-w-lg">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
-              placeholder="user@codenexiss.io"
-              className="flex-grow bg-white/10 backdrop-blur-md border border-white/20 rounded-lg px-6 py-3 text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all font-mono text-sm"
-            />
-            <button
-              onClick={handleSubmit}
-              className="px-8 py-3 bg-white text-indigo-700 font-headline font-black uppercase tracking-wider rounded-lg hover:bg-opacity-90 active:scale-95 transition-all shrink-0"
-            >
-              Subscribe
-            </button>
-          </div>
-        )}
-
+        {/* Form */}
+        <form onSubmit={handleSubmit}>
+        <div className="flex flex-col sm:flex-row gap-4 max-w-lg">
+          {/* Inputs Row */}
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="user@codenexiss.io"
+            required
+            className="flex-grow bg-white/10 backdrop-blur-md border border-white/20 rounded-lg px-6 py-3 text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all font-mono text-sm"
+          />
+          <input
+            type="tel"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            placeholder="Enter Mobile no...."
+            required
+            pattern="[0-9]{10}"
+            className="flex-grow bg-white/10 backdrop-blur-md border border-white/20 rounded-lg px-6 py-3 text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all font-mono text-sm"
+          />
+          <button
+            type="submit" 
+            className="px-8 py-3 bg-white text-indigo-700 font-headline font-black uppercase tracking-wider rounded-lg hover:bg-opacity-90 active:scale-95 transition-all shrink-0"
+          >
+            Subscribe
+          </button>
+        </div>
+        </form>
         <p className="mt-4 text-[10px] font-mono opacity-60 uppercase tracking-widest">
           Encrypted Delivery // No Tracking // No Spam
         </p>

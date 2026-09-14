@@ -23,7 +23,7 @@ export default function MobileServicesGrid() {
             icon="android"
             iconColor="text-[#3ddc84]"
             title="Android App Development"
-            description="Custom Android applications designed for peak performance, extreme usability, and massive scalability. We leverage the full potential of the Android ecosystem to create powerful, native experiences."
+            description="Engineered for performance, scalability, and seamless user experiences, our custom Android applications are built using modern native technologies and industry-leading development standards. We create secure, feature-rich mobile solutions optimized for diverse Android devices, ensuring reliability, speed, and long-term growth for businesses operating in competitive digital environments."
             variant="full"
             layout="horizontal"
             badge="HOTJS_READY"

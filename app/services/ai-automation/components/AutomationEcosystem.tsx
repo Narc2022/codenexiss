@@ -95,8 +95,8 @@ export default function AutomationEcosystem() {
             </div>
             <h3 className="text-xl font-headline font-bold mb-3">Chatbot Development</h3>
             <p className="text-on-surface-variant text-sm mb-6">
-              Smart chatbots to automate customer interactions and improve support
-              through natural language understanding.
+              Our Chatbot Development solutions are engineered to deliver intelligent, highly engaging conversational, mobile applications, and digital platforms. With advanced natural language processing, seamless integration capabilities and provide reliable 24/7 digital assistance.
+
             </p>
             <StatusChip color="text-primary" text="NLP ENGINE v4.2" />
           </div>
@@ -108,8 +108,8 @@ export default function AutomationEcosystem() {
             </div>
             <h3 className="text-xl font-headline font-bold mb-3">WhatsApp Automation</h3>
             <p className="text-on-surface-variant text-sm mb-6">
-              Automated messaging systems for customer engagement and sales
-              directly within the world's most popular messaging app.
+              WhatsApp is one of the most powerful communication platforms for businesses today. Our WhatsApp Automation services help you engage customers instantly, automate responses, generate leads, and improve sales without manual effort.
+              We build smart automation systems that keep your business active 24/7 on WhatsApp.
             </p>
             <StatusChip color="text-secondary" text="API_INTEGRATION_CONNECTED" />
           </div>
@@ -121,8 +121,8 @@ export default function AutomationEcosystem() {
             </div>
             <h3 className="text-lg font-headline font-bold mb-2">CRM Automation</h3>
             <p className="text-on-surface-variant text-sm">
-              Streamlining customer relationship management processes with
-              intelligent data syncing.
+              CRM Automation helps streamline customer management, automate sales workflows. Our CRM Automation services ensure that your leads are tracked, nurtured.
+              We help you turn your CRM into a powerful, automated growth engine.
             </p>
           </div>
 
@@ -133,8 +133,8 @@ export default function AutomationEcosystem() {
             </div>
             <h3 className="text-lg font-headline font-bold mb-2">Lead Generation System</h3>
             <p className="text-on-surface-variant text-sm">
-              Automated systems to capture, track, and convert leads with surgical
-              precision.
+              A strong lead generation system is the backbone of every successful business. And services help you attract, capture, data-driven strategies across digital platforms.
+              We build consistently bring new customers to your business.
             </p>
           </div>
 
@@ -145,8 +145,8 @@ export default function AutomationEcosystem() {
             </div>
             <h3 className="text-lg font-headline font-bold mb-2">Email Automation</h3>
             <p className="text-on-surface-variant text-sm">
-              Automated email workflows for hyper-personalized marketing and
-              transactional communication.
+              Email automation helps your audience at every stage of their journey without manual effort.And send the right message to the right person at the right time, improving engagement, retention, and sales.
+              We build smart work for your business 24/7.
             </p>
           </div>
 
@@ -162,8 +162,8 @@ export default function AutomationEcosystem() {
                 </div>
                 <h3 className="text-2xl font-headline font-bold mb-4">Workflow Automation</h3>
                 <p className="text-on-surface-variant max-w-lg mb-8">
-                  Optimizing business processes with bespoke automation tools that
-                  eliminate repetitive tasks and human-error latency.
+                  Workflow automation helps repetitive tasks, connect tools, and improve productivity without manual effort. Our Workflow Automation services enable you to automate end-to-end business processes so your team can focus on growth instead of routine operations.
+                  We build smart, scalable tailored to your business needs.
                 </p>
               </div>
               <div className="flex gap-4 font-mono text-[10px] text-outline flex-wrap">

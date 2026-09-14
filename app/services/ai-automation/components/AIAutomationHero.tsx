@@ -32,9 +32,7 @@ export default function AIAutomationHero() {
             </h1>
 
             <p className="text-xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
-              Synthesizing efficiency through custom AI architectures. We build the
-              neural framework that powers the next generation of autonomous
-              enterprise operations.
+              AI automation is transforming the way modern businesses operate. Our AI Automation Services help you streamline workflows, reduce manual work, and improve efficiency using smart, AI-powered systems that save time and increase productivity.
             </p>
 
             <div className="flex flex-wrap gap-4">

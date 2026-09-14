@@ -5,7 +5,7 @@ const modules = [
     id: "0x912-SHORT",
     icon: "movie_edit",
     title: "Reels & Shorts Editing",
-    desc: "Engaging short-form video editing optimized for retention-first social media algorithms.",
+    desc: "Boost your social media presence with our professional Reels & Shorts Editing services. We create high-quality, engaging, and viral-ready short videos tailored for platforms like Instagram, YouTube Shorts, and TikTok.",
     color: "primary",
     accent: "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white",
   },
@@ -13,7 +13,7 @@ const modules = [
     id: "0x432-LONG",
     icon: "play_circle",
     title: "YouTube Video Editing",
-    desc: "Professional long-form editing to enhance production value and deep narrative quality.",
+    desc: "Enhance your YouTube channel with our professional video editing services. We transform your raw footage into high-quality, engaging, and audience-retaining videos that help grow your subscribers and increase watch time.",
     color: "secondary",
     accent: "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-white",
   },
@@ -21,7 +21,7 @@ const modules = [
     id: "0x113-TEXT",
     icon: "edit_note",
     title: "Script Writing",
-    desc: "Structured, high-conversion scripts tailored for specific marketing psychological profiles.",
+    desc: "Bring your ideas to life with our professional Script Writing Services. We craft engaging, creative, and audience-focused scripts for videos, ads, and digital content that capture attention and deliver powerful messages.",
     color: "primary",
     accent: "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white",
   },
@@ -29,7 +29,7 @@ const modules = [
     id: "0x665-VOX",
     icon: "graphic_eq",
     title: "AI Voiceover",
-    desc: "Hyper-realistic vocal synthesis for ads and narration with emotional tonal control.",
+    desc: "Enhance your content with professional AI Voiceover Services. We provide natural-sounding, high-quality voiceovers for videos, ads, and digital content that engage your audience and elevate your brand presence.",
     color: "tertiary",
     accent: "bg-tertiary/10 text-tertiary group-hover:bg-tertiary group-hover:text-white",
   },
@@ -37,7 +37,7 @@ const modules = [
     id: "0x334-VIS",
     icon: "thumbnail_bar",
     title: "Thumbnail Design",
-    desc: "Custom high-CTR graphical assets designed using viral pattern recognition.",
+    desc: "Grab attention instantly with our professional Thumbnail Design Services. We create eye-catching, high-converting thumbnails that increase clicks, boost engagement, and help your content stand out on platforms.",
     color: "secondary",
     accent: "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-white",
   },
@@ -45,7 +45,7 @@ const modules = [
     id: "0x992-PLAN",
     icon: "calendar_today",
     title: "Content Planning",
-    desc: "Strategic temporal allocation of content for maximum platform authority growth.",
+    desc: "Take your content strategy to the next level with our professional Content Planning. We help you plan, organize, and execute content that aligns with your goals, engages your audience, drives consistent growth across platforms.",
     color: "tertiary",
     accent: "bg-tertiary/10 text-tertiary group-hover:bg-tertiary group-hover:text-white",
   },
@@ -70,8 +70,7 @@ export default function ProductionModules() {
             Production Modules
           </h2>
           <p className="text-on-surface-variant text-sm leading-relaxed">
-            Discrete computational units designed for end-to-end narrative
-            deployment across global channels.
+            Advanced production modules engineered as scalable computational units for seamless content creation, workflow automation, and multi-channel distribution. Designed to support end-to-end deployment, they ensure operational efficiency, consistency, and reliable delivery across global digital platforms.
           </p>
         </div>
 

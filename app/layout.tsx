@@ -1,5 +1,6 @@
+import "./globals.css";
 import type { Metadata } from "next";
-// import "./globals.css";
+import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,13 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+
+        {/* Toast Notifications */}
+
+        <Toaster
+          position="top-right"
+          reverseOrder={false}
+        />
       </body>
     </html>
   );
