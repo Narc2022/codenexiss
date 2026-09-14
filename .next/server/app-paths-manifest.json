@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/blog_innovationhub/route": "app/api/blog_innovationhub/route.js",
+  "/api/homepage_subscription/route": "app/api/homepage_subscription/route.js",
+  "/api/services/graphic-design/route": "app/api/services/graphic-design/route.js",
+  "/page": "app/page.js",
+  "/technical/page": "app/technical/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/our-stories/page": "app/our-stories/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/enterprise/page": "app/enterprise/page.js",
+  "/services/3d-printing/page": "app/services/3d-printing/page.js",
+  "/services/ai-automation/page": "app/services/ai-automation/page.js",
+  "/services/app-dev/page": "app/services/app-dev/page.js",
+  "/services/content-creation/page": "app/services/content-creation/page.js",
+  "/services/digital-marketing/page": "app/services/digital-marketing/page.js",
+  "/services/it-support/page": "app/services/it-support/page.js",
+  "/services/graphic-design/page": "app/services/graphic-design/page.js",
+  "/services/page": "app/services/page.js",
+  "/services/web-dev/page": "app/services/web-dev/page.js"
+}
