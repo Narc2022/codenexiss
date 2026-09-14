@@ -5,30 +5,32 @@ import toast from "react-hot-toast";
 
 export default function NewsletterSection() {
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
 
-   const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
 
-  if (!email) {
-    toast.error("Please enter an email");
-    return;
-  }
+    if (!email || !phone) {
+      toast.error("Please enter an email and mobile number");
+      return;
+    }
     try {
-      const res = await fetch("/api/subscription", {
+      const res = await fetch("/api/homepage_subscription", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, phone, }),
       });
 
       const data = await res.json();
 
       if (data.success) {
-        toast.success("Email sent successfully!");
+        toast.success("Details sent successfully!");
         setEmail("");
+        setPhone("");
       } else {
-        toast.error("Failed to send email!");
+        toast.error("Failed to send email & mobile no!");
       }
     } catch (error) {
       console.error(error);
@@ -50,24 +52,38 @@ export default function NewsletterSection() {
         </div>
 
         {/* Form */}
-        <form
-          onSubmit={handleSubmit}
-          className="flex flex-col sm:flex-row gap-4"
-        >
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="codenexiss@gmail.com"
-            required
-            className="flex-grow bg-surface-container-highest/10 border border-surface-variant/20 rounded-lg px-6 py-4 text-white mono-data focus:ring-2 focus:ring-primary focus:border-transparent outline-none placeholder:text-white/30"
-          />
-          <button
-            type="submit"
-            className="bg-primary text-on-primary font-headline font-bold px-8 py-4 rounded-lg hover:bg-primary-container transition-colors whitespace-nowrap"
-          >
-            JOIN THE GRID
-          </button>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          {/* Inputs Row */}
+          <div className="flex flex-col sm:flex-row gap-4">
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="codenexiss@gmail.com"
+              required
+              className="flex-1 bg-surface-container-highest/10 border border-surface-variant/20 rounded-lg px-3 py-4 text-white mono-data focus:ring-2 focus:ring-primary focus:border-transparent outline-none placeholder:text-white/30"
+            />
+
+            <input
+              type="tel"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              placeholder="Enter Mobile no...."
+              required
+              pattern="[0-9]{10}"
+              className="flex-1 bg-surface-container-highest/10 border border-surface-variant/20 rounded-lg px-3 py-4 text-white mono-data focus:ring-2 focus:ring-primary focus:border-transparent outline-none placeholder:text-white/30"
+            />
+          </div>
+
+          {/* Button Row */}
+          <div>
+            <button
+              type="submit"
+              className="w-full bg-primary text-on-primary font-headline font-bold px-8 py-4 rounded-lg hover:bg-primary-container transition-colors"
+            >
+              JOIN THE GRID
+            </button>
+          </div>
         </form>
       </div>
 
